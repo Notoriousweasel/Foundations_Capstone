@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mike's Muscle Management System</title>
+</head>
+<body class="container">
+  <nav>
+    <button class="dropdown-btn" id="menuButton">Menu</button>
+    <div class="dropdown-content" id="myDropdown">
+      <link rel="stylesheet" href="styles.css">
+      <a href="index.html">Workout Generator</a>
+      <a href="info.html">Information</a>
+    </div>
+  </nav>
+
+  <h1>Mike's Muscle Management System</h1>
+
+  <section id="bWE">
+    <section id="getbWE" >
+      <button id="bWEBtn" class="workout-button">Body weight total body exercises</button>
+    </section>
+    
+    <section id="wE">
+      <section id="getWE">
+        <button id="wEBtn" class="workout-button">Weighted total body exercises</button>
+      </section>
+      
+    </section>
+    <section id="cTBWE">
+    <section id="getCTBWE">
+      <button id="cTBWEBtn" class="workout-button">Body weight chest and triceps exercises</button>  
+    </section>
+    
+    </section>
+    <section id="cTWE">
+    <section id="getCTWE">
+      <button id="cTWEBtn" class="workout-button">Weighted chest and triceps exercises</button>
+    </section>
+    
+    </section>
+
+    <section id="bBBWE">
+    <section id="getBBBWE">
+      <button id="bBBWEBtn" class="workout-button">Body weight back and bicep exercises</button>
+    </section>  
+      
+    </section>
+
+    <section id="bBWE">
+    <section id="getBBWE">
+      <button id="bBWEBtn" class="workout-button">Weighted back and bicep exercises</button>
+    </section>  
+      
+    </section>
+    <br>
+
+<section>
+    <h3>
+      List of all exercises:</h3>
+    
+      <div id="eList"></div>
+    </section>
+
+    <BR>
+
+    <section id="exercise">
+      <h3>Add an exercise here:</h3>
+      <input placeholder="Enter exercise" id="add">
+      <button id="addexerciseLBtn">Add Exercise</button>
+    </section>
+  </section>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
