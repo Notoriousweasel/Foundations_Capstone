@@ -6,8 +6,8 @@ const wEBtn = document.getElementById("wEBtn")
 const cTWEBtn = document.getElementById("cTWEBtn")
 const bBWEBtn = document.getElementById("bBWEBtn")
 const addexerciseLBtn = document.getElementById("addexerciseLBtn")
-const baseURL = "http://34.217.64.203:4002/api/";
-
+//const baseURL = "http://localhost:4002/api/";
+const baseURL = "ec2-34-217-64-203.us-west-2.compute.amazonaws.com:4002/api/";
 const toggleDropdown = () => {
   let dropdown = document.getElementById('myDropdown');
   
