@@ -2,6 +2,10 @@
 
   <p>The Foundations Capstone Project is an app designed to provide a list of customizable exercises based on the project. Users can update, delete, and add custom exercises using this application. The technologies used in this project include HTML, CSS, JavaScript, and Express.</p>
 
+  <h2>Video Demonstration</h2>
+
+  <p>Check out the video demonstration on YouTube: <a href="https://youtu.be/qSoggUtWlo0">https://youtu.be/qSoggUtWlo0</a></p>
+
   <h2>Getting Started</h2>
 
   <h3>Prerequisites</h3>
