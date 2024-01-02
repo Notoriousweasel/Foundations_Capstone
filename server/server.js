@@ -7,7 +7,7 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
-app.use(express.static((`${__dirname}/public`)));
+app.use(express.static(`public`));
 
 const { getBWE, getWE, getBBBWE, getCTBWE, getBBWE, getCTWE, addExercise, updateEL, deleteEL, getELAll  } = ctrl;
 
