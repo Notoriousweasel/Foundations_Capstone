@@ -1,45 +1,100 @@
-Foundations Capstone Project
-The Foundations Capstone Project is an app designed to provide a list of customizable exercises based on the project. Users can update, delete, and add custom exercises using this application. The technologies used in this project include HTML, CSS, JavaScript, and Express.
+<!DOCTYPE html>
+<html>
 
-Getting Started
-Follow these steps to set up and run the Foundations Capstone Project on your local machine. Here is a link to a video demonstration that I did. https://youtu.be/qSoggUtWlo0
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
 
-Prerequisites
-Make sure you have the following software installed:
+    h1 {
+      font-size: 28px;
+      color: #333;
+    }
 
-Git
-Node.js
-Installation
-Clone the repository:
+    h2 {
+      font-size: 24px;
+      color: #444;
+    }
 
-sh
-Copy code
-git clone https://github.com/Notoriousweasel/Foundations_Capstone.git
-Navigate to the project directory:
+    h3 {
+      font-size: 20px;
+      color: #555;
+    }
 
-sh
-Copy code
-cd Foundations_Capstone
-Install dependencies:
+    ul {
+      list-style-type: square;
+      margin: 0;
+      padding: 0;
+    }
 
-sh
-Copy code
-npm install
-Usage
-To run the app, use the following command:
+    li {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
 
-sh
-Copy code
-npm start
-Visit http://localhost:3000 in your web browser to access the application.
+<body>
 
-Features
-Get a list of customizable exercises.
-Update existing exercises.
-Delete exercises.
-Add custom exercises.
-Contributing
-If you want to contribute to this project, please follow our Contribution Guidelines.
+  <h1>Foundations Capstone Project</h1>
+
+  <p>The Foundations Capstone Project is an app designed to provide a list of customizable exercises based on the project. Users can update, delete, and add custom exercises using this application. The technologies used in this project include HTML, CSS, JavaScript, and Express.</p>
+
+  <h2>Getting Started</h2>
+
+  <h3>Prerequisites</h3>
+  <p>Make sure you have the following software installed:</p>
+
+  <ul>
+    <li>Git</li>
+    <li>Node.js</li>
+  </ul>
+
+  <h3>Installation</h3>
+  <ol>
+    <li>Clone the repository:</li>
+    <pre><code>git clone https://github.com/Notoriousweasel/Foundations_Capstone.git</code></pre>
+    <li>Navigate to the project directory:</li>
+    <pre><code>cd Foundations_Capstone</code></pre>
+    <li>Install dependencies:</li>
+    <pre><code>npm install</code></pre>
+  </ol>
+
+  <h2>Usage</h2>
+
+  <p>To run the app, use the following command:</p>
+
+  <pre><code>npm start</code></pre>
+
+  <p>Visit <a href="http://localhost:3000">http://localhost:3000</a> in your web browser to access the application.</p>
+
+  <h2>Features</h2>
+
+  <ul>
+    <li>Get a list of customizable exercises.</li>
+    <li>Update existing exercises.</li>
+    <li>Delete exercises.</li>
+    <li>Add custom exercises.</li>
+  </ul>
+
+  <h2>Contributing</h2>
+
+  <p>If you want to contribute to this project, please follow our <a href="CONTRIBUTING.md">Contribution Guidelines</a>.</p>
+
+  <h2>License</h2>
+
+  <p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
+
+  <h2>Acknowledgments</h2>
+
+  <p>Special thanks to <a href="https://github.com/Notoriousweasel">Notoriousweasel</a> for creating and maintaining this project. Thanks to the contributors and the open-source community.</p>
+
+</body>
+
+</html>
+
 
 License
 This project is licensed under the MIT License.
